@@ -1,3 +1,19 @@
+# Project Description
+
+### `Todo List`
+React Todo application is a simple web application built using the React JavaScript library, which allows users to manage their tasks and to-do lists. The application allows users to add, edit, and delete tasks, as well as mark tasks as completed.
+
+The application consists of several components, including the App component which serves as the main container for the application, the TodoForm component which allows users to add new tasks, the TodoList component which displays a list of tasks, and the TodoItem component which represents an individual task.
+
+The application uses React state and props to manage the state of the application and to pass data between components. It also makes use of the local storage API to store the user's tasks and retrieve them when the application is opened again.
+
+Overall, the React Todo application is a great example of how to build a simple yet powerful web application using React. It demonstrates the power of React's component-based architecture and the simplicity of its state management system.
+
+### `Hosted Link`
+
+https://todo-list-one-ecru.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

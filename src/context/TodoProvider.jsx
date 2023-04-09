@@ -1,6 +1,5 @@
 const { useContext, createContext, useState } = require("react");
 
-
 const TodoContext = createContext();
 const initialTodoList = ["Learn React Context"]
 
@@ -18,7 +17,7 @@ const TodoProvider = ({ children }) => {
     }
 
     const setUpate = (updatedItem, id) => {
-        console.log("Inside the Todo Provider", updatedItem, " ID :: ", id);
+        // console.log("Inside the Todo Provider", updatedItem, " ID :: ", id);
         setTodoList(
             todoList.map((todo, index) => {
                 if(index === id) {
